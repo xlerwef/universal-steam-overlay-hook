@@ -15,6 +15,7 @@ Install polyhook:x64-windows-static, spdlog:x64-windows-static
 vcpkg integrate install
 
 vcpkg integrate project
+test
 
 # Usage
 
