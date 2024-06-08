@@ -78,3 +78,4 @@ private:
 
 const std::string steam_create_hook_pattern = std::string("48 89 5C 24 ? 57 48 83 EC ? 33 C0");
 const std::string steam_present_hook_pattern = std::string("48 89 6C 24 ? 48 89 74 24 ? 41 56 48 83 EC ? 41 8B E8");
+const std::string entity_move_hook_pattern = std::string("48 89 5C 24 18 57 48 83 EC 20 8B 41 10 33 FF");

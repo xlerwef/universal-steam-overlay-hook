@@ -147,8 +147,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="directx.h" />
+    <ClInclude Include="dllmain.h" />
     <ClInclude Include="drawing.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="gamestructs.h" />
     <ClInclude Include="hooks.h" />
     <ClInclude Include="imgui\imconfig.h" />
     <ClInclude Include="imgui\imgui.h" />
