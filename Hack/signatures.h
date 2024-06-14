@@ -76,6 +76,10 @@ private:
 	std::string m_patternString;
 };
 
+//0305F708
+const std::string entity_list_pattern = std::string("8B 83 D8 00 00 00 41 89 46 08 F3 41 0F 11 76 24");
+const std::string entity_list_start_pattern = std::string("40 53 41 54 41 57 48 81 EC B0 00 00 00 4C 8B E1 4C 8B FA 48 8D 8C 24 E0 00 00 00 E8 C0 7A 4A FF 48 8B 9C 24 E0 00 00 00 48 85 DB 0F 84 63 03 00 00");
 const std::string steam_create_hook_pattern = std::string("48 89 5C 24 ? 57 48 83 EC ? 33 C0");
-const std::string steam_present_hook_pattern = std::string("48 89 6C 24 ? 48 89 74 24 ? 41 56 48 83 EC ? 41 8B E8");
+// Old Sig: 48 89 6C 24 ? 48 89 74 24 ? 41 56 48 83 EC ? 41 8B E8
+const std::string steam_present_hook_pattern = std::string("48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 41 56 41 57 48 83 EC 20 41");
 const std::string entity_move_hook_pattern = std::string("48 89 5C 24 18 57 48 83 EC 20 8B 41 10 33 FF");
